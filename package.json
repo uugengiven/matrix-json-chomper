@@ -1,0 +1,11 @@
+{
+  "name": "matrix-json-chomper",
+  "version": "1.0.0",
+  "description": "Changes json from matrix to jsonl for mattermost",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
