@@ -93,7 +93,7 @@ const generateOutput = (fileName, roomName) => {
                 team,
                 channel: room,
                 user: users[user],
-                message: message.content.body,
+                message: message.content.body.substring(0, 16000), // only get the first 16000 characters
                 create_at: message.origin_server_ts
             }
         }
